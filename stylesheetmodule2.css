@@ -1,0 +1,112 @@
+
+	* {
+	box-sizing: border-box; 
+	padding:5px;
+	font-family: "Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+
+}
+
+h1 {
+	text-align: center;
+	font-size: 300%;
+}
+
+.div1, .div2, .div3 {
+	float:left;
+	width: 30%;
+	border:solid 2px;
+	margin:15 px;
+	margin-right: 20px;
+	padding:0;
+
+}
+
+.div1 {
+	background-color: grey;
+}
+.div2 {
+	background-color: grey;
+}
+
+.div3 {
+	background-color: grey;
+}
+
+ span {
+	text-align: center;
+	border:solid 1px;
+	font-size: 130%;
+	position:absolute;
+	top:0;
+	right:0;
+	margin:0;
+	padding:0;
+	width:30%;
+
+}
+
+p {
+	margin-top:50px;
+	padding:0;
+    height:340px; 
+    font-size: 130% ;
+}
+
+.box1,.box2, .box3 {
+	
+	position:relative;
+	margin:0;
+	padding:0;
+	width:100%;
+	height: 100%
+
+}
+
+#Menu1{
+	background-color:#C28585;
+}
+#Menu2{
+	background-color: #C14543;
+	color: #FEFBEF;
+	border:solid black 1px;
+}
+#Menu3{
+	background-color: #E5D198;
+}
+/*Desktop*/
+@media  screen and (min-width: 992px) {
+	div {
+	
+	}
+
+}
+
+/*Tablet*/
+@media  (min-width: 768px) and (max-width: 991px) {
+	.div1, .div2 {
+		width:48%;
+		margin: 1%;
+		height:40%;
+	}
+	.div3 {
+		width:100%;
+		margin-top: 20px;
+	}
+}
+
+/*Phone*/
+@media  screen and (max-width: 767px) {
+	.div1 {
+		width:100%;
+		clear:right;
+	}
+	.div2 {
+		width:100%;
+		clear:right;
+	}
+	.div3 {
+		width:100%;
+		clear:right;
+	}
+}
+	
